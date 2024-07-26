@@ -6,4 +6,71 @@ html {
 }
 body {
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
 }
+/* =================Commom================ */
+a {
+  text-decoration: none;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  display: inline-block;
+  min-width: 118px;
+  padding: 0 16px;
+  line-height: 50px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  background-color: #171100;
+  border-radius: 24.5px;
+}
+
+/*  Code cho phần header */
+.header{background: #FFFCF4;
+}
+.header.fixed{ 
+    position:sticky;
+    top:-28px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+.nav {
+  margin-left: auto;
+}
+.nav ul {
+  display: flex;
+}
+.nav a {
+  position: relative;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  padding: 8px 21px;
+}
+.nav li.active a,
+.nav a:hover {
+  /* font-weight: 600; */
+  color: #171100;
+  text-shadow: 1px 0 0 currentcolor;
+}
+.nav li.active a::after {
+  position: relative;
+  left: 21px;
+  bottom: 1px;
+  display: block;
+  content: "";
+  width: 12px;
+  height: 2px;
+  border-radius: 1px 0px 0px 0px;
+  background: #171100;
+}
+.header .btn-sign-up{mw144px}
+.header .action{margin-left: 49px;}
