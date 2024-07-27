@@ -32,11 +32,12 @@ a {
 }
 
 /*  Code cho phần header */
-.header{background: #FFFCF4;
+.header {
+  background: #fffcf4;
 }
-.header.fixed{ 
-    position:sticky;
-    top:-28px;
+.header.fixed {
+  position: sticky;
+  top: -28px;
 }
 .header .body {
   display: flex;
@@ -72,5 +73,9 @@ a {
   border-radius: 1px 0px 0px 0px;
   background: #171100;
 }
-.header .btn-sign-up{mw144px}
-.header .action{margin-left: 49px;}
+.header .btn-sign-up {
+  max-width: 100px;
+}
+.header .action {
+  margin-left: 49px;
+}
